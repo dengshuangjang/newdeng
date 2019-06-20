@@ -85,7 +85,11 @@ a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠
 	color: #F00;
 }
 -->
-</style></head>
+</style>
+<link href="SpryAssets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+</head>
 
 <body>
 
@@ -214,6 +218,22 @@ a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠
   <span id="kebenjiaoxuean2" style="float: right; width: 18%; margin-right: 4px;">　　</span>
   <span id="kebenjiaoxuean2" style="float: left; width: 80%;">1、<span id="azjk"><strong>安装监控</strong></span><strong>：</strong>手机，电脑随时查看监控动态，图像清晰，白天黑夜均可录制和分享，及时向你报告不安全因素，保障您的财产和人员安全。有线和无线监控可选，最佳布线和调试，指导使用。</span>
 </ol>
+
+<div style="display: block; float: left; width: 98%; margin-left: 1%!important; *margin-left: 1%;margin-left: 0.4%; padding-bottom: 1ex; clear: both;">
+<div id="CollapsiblePanel1" class="CollapsiblePanel">
+  <div class="CollapsiblePanelTab" tabindex="0">放心的监控服务，使用更方便↓</div>
+  <div class="CollapsiblePanelContent">
+    <p>1、适用于超市、医院、学校等场所的有录像机的监控：<br />
+      如图：<br />
+      <img src="Media/jkongz.jpg" width="740" height="369" /></p>
+    <p>2、适用于家庭或小店的无线监控，图像一样的清晰，随时可查看的监控：<br />
+      如图：<br />
+      <img src="Media/jkongs.jpg" width="740" height="274" /></p>
+    <p>相信口碑：用过的都说好！</p>
+  </div>
+</div>
+</div>
+
 <ol  style="display: block; float: left; width: 100%; text-align: left; padding-bottom: 2px; padding-top: 2px;">
   <span id="kebenjiaoxuean2" style="float: right; width: 18%; margin-right: 4px;">　　</span>
 <span id="kebenjiaoxuean2" style="float: left; width: 80%;">2、电脑硬件<strong>疑难问题排查与解决</strong></span>
@@ -254,5 +274,8 @@ a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠
 </div>
   </div>
   <!-- end .container --></div>
+<script type="text/javascript">
+var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel1", {contentIsOpen:false});
+</script>
 </body>
 </html>
