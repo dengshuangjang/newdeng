@@ -18,7 +18,7 @@
  */
 .CollapsiblePanel {
 	margin: 0px;
-	padding: 1ex;
+	padding: 0px 1ex 0px;
 }
 
 /* This is the selector for the CollapsiblePanelTab. This container houses
@@ -50,7 +50,7 @@
  */
 .CollapsiblePanelContent {
 	margin: 0px;
-	padding: 0px;
+	padding: 1ex 0px 0px;
 }
 
 /* An anchor tag can be used inside of a CollapsiblePanelTab so that the
