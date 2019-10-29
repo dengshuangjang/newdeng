@@ -17,7 +17,6 @@ ol:hover{
 	border-color: #0CF;
 	border-radius: 6px;
 }
-
 /* ~~ 元素/标签选择器 ~~ */
 ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
 	padding: 0;
@@ -28,14 +27,13 @@ h1, h2, h3, h4, h5, h6, p {
 	padding-right: 15px;
 	padding-left: 15px; /* 向 div 内的元素侧边（而不是 div 自身）添加填充可避免使用任何方框模型数学。此外，也可将具有侧边填充的嵌套 div 用作替代方法。 */
 }
-a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+a img { 
 	border: none;
 }
-/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
 a:link {
 	color: #42413C;
-	text-decoration: underline; /* 除非将链接设置成极为独特的外观样式，否则最好提供下划线，以便可从视觉上快速识别 */
-}
+	text-decoration: underline; 
+	}
 a:visited {
 	color: #6E6C64;
 	text-decoration: underline;
@@ -129,9 +127,9 @@ a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠
   <span id="kebenjiaoxuean2" style="float: left; width: 80%;">6、系统使用中出现一些莫名其妙的问题。</span>
 </ol>
 
-<ol  style="display: block; float: left; width: 50%; text-align: left; padding-bottom: 2px; padding-top: 2px;">
+<ol  style="cursor: help; font-size: 1.2em; display: block; float: left; width: 50%; text-align: left; padding-bottom: 2px; padding-top: 2px;">
   <span id="kebenjiaoxuean2" style="float: right; width: 18%; margin-right: 4px;">　　</span>
-  <span id="kebenjiaoxuean2" style="float: left; width: 80%; color: #FFF;">7、安装Win 10，8.1实现秒开电脑（几秒可启动），提升安全性和易用性，增强系统使用体验</span>
+  <span id="kebenjiaoxuean2" style="display: block; text-decoration: underline; float: left; width: 80%;">7、安装Win 10，8.1实现秒开电脑（几秒可启动），提升安全性和易用性，增强系统使用体验</span>
 </ol>
 <ol  style="display: block; float: left; width: 50%; text-align: left; padding-bottom: 2px; padding-top: 2px;">
   <span id="kebenjiaoxuean2" style="float: right; width: 18%; margin-right: 4px;">　　</span>
